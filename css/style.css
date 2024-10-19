@@ -82,7 +82,21 @@ p{
   text-align: center;
 }
 
-.half-dx {
+
+
+/*BOX HALF*/
+
+
+.box-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.half {
     display: flex;
     width: 70%;
     max-width: 1200px;
@@ -106,15 +120,31 @@ p{
     width: 40%; 
 }
 
-.box-top{
+.box-top-reverse{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  background-color: #D3D3D3;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 
 
+/*BOX BOTTOM*/
 
+.info-bott{
+  background-color: #D3D3D3;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.box-bott {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #3498db;
+  text-align: center;
+  min-height: 800px;
+  border: 2px dashed black;
+}
