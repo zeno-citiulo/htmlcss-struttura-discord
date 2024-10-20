@@ -84,7 +84,7 @@ p{
 
 
 
-/*BOX HALF*/
+/*BOX TOP*/
 
 
 .box-top{
@@ -99,7 +99,6 @@ p{
 .half {
     display: flex;
     width: 70%;
-    max-width: 1200px;
 }
 
 .box {
@@ -119,6 +118,7 @@ p{
     background-color: #e74c3c;
     width: 40%; 
 }
+/* CSS BOX REVERSE*/
 
 .box-top-reverse{
   display: flex;
@@ -148,4 +148,70 @@ p{
   color: white;
   min-height: 800px;
   border: 2px dashed black;
+}
+
+
+/************************* FOOTER ****************************/
+
+.last-container{
+  background-color: #23272A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-foot {
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+  min-height: 400px;
+}
+
+.left {
+  background-color: #e57373;
+  flex: 1;
+  border: 2px dashed black;
+}
+
+.right {
+  display: flex;
+  flex: 2;
+  border: 2px dashed white;
+}
+
+.column {
+  background-color: #4db6ac;
+  flex: 1;
+  border: 2px dashed white;
+}
+
+.line {
+  height: 2px;
+  background-color: white;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #82e9de;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo {
+  background-color: #e57373;
+  padding: 10px;
+  border: 2px dashed white;
+}
+
+.bottone {
+  background-color: #e57373;
+  padding: 10px;
+  border: 2px dashed white;
 }
